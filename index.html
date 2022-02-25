@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-    
-    <html lang="en">
-    
-    <head>
-        <title>calculator</title>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="style.css">
-    </head>
-
-  <body>
-    <form class="calculator" name="calc">
+ <form class="calculator" name="calc">
         <input type="text" name="val" readonly="" class="txt"/>
         <input type="button" value = 'c' class="btn clear" onclick="document.calc.val.value = ''">
         <input type="button" value = '*' class="btn" onclick="document.calc.val.value += '*'">
@@ -30,7 +19,3 @@
         <input type="button" value = '.' class="btn" onclick="document.calc.val.value += '.'">
         <input type="button" value = '=' class="btn" onclick="document.calc.val.value = eval(calc.val.value)">
     </form>
-      
-    </body>
-
-</html>
